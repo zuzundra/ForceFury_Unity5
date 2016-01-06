@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{523B872A-A120-6496-6754-A898848E9F25}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile>Assets\smcs.rsp</CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.3.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_1;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;MISSIONS_TEST;BARRACKS_TEST</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_1;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;MISSIONS_TEST;BARRACKS_TEST</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\123.cs" />
+    <Compile Include="Assets\AndroidImmersiveMode\Scripts\DemoScript.cs" />
+    <Compile Include="Assets\AndroidImmersiveMode\Scripts\ImmersiveModeEnabler.cs" />
+    <Compile Include="Assets\EventSystem\MainScripts\EnumConverterCreator.cs" />
+    <Compile Include="Assets\EventSystem\MainScripts\EventManager.cs" />
+    <Compile Include="Assets\EventSystem\MainScripts\EventManagerExceptions.cs" />
+    <Compile Include="Assets\EventSystem\MainScripts\EventManagerRepository.cs" />
+    <Compile Include="Assets\EventSystem\MainScripts\EventManagerRepositoryCleaner.cs" />
+    <Compile Include="Assets\EventSystem\MainScripts\OpenChannelEventArgs.cs" />
+    <Compile Include="Assets\EventSystem\Samples\EventSystemTester.cs" />
+    <Compile Include="Assets\EventSystem\Samples\EventsAggregator.cs" />
+    <Compile Include="Assets\EventSystem\Samples\SampleEventEnum.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DAudioController.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DBeam.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DDespawn.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DFXController.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DFlameThrower.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DLightning.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DParticleScale.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DPool.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DProjectile.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DPulsewave.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DRandomize.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DShotgun.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DTime.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DTurret.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DWarpJump.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DWarpJumpTunnel.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\F3DWarpTunnel.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\MeshCombine\CombineChildren.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Code\MeshCombine\MeshCombineUtility.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Examples\Code\F3DBurnoutExample.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Examples\Code\F3DDummyEvent.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Examples\Code\F3DNebula.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Examples\Code\F3DTrailExample.cs" />
+    <Compile Include="Assets\FORGE3D\Sci-Fi Effects\Examples\Code\F3DTurnTable.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\UI\CFX_Demo_GTButton.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\UI\CFX_Demo_GTToggle.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_InspectorHelp.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\BuildingsData\CBBarracksData.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\BuildingsData\CBBaseData.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\BuildingsData\CBMarketData.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\BuildingsData\CBTownHallData.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\BuildingsData\CBWarehouseData.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\BuildingsData\Levels\CBBarracksLevel.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\BuildingsData\Levels\CBWarehouseLevel.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\CityBuildingInfo.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\CityBuildingKeys.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\Requirements\CBConstructionRequirement.cs" />
+    <Compile Include="Assets\Project\Code\Core\City\Requirements\ConstructionBuildingRequirement.cs" />
+    <Compile Include="Assets\Project\Code\Core\Fight\FightLogger.cs" />
+    <Compile Include="Assets\Project\Code\Core\Fight\FightMode.cs" />
+    <Compile Include="Assets\Project\Code\Core\GameConstants.cs" />
+    <Compile Include="Assets\Project\Code\Core\Global.cs" />
+    <Compile Include="Assets\Project\Code\Core\Items\BaseItem.cs" />
+    <Compile Include="Assets\Project\Code\Core\Items\EquipmentSlots.cs" />
+    <Compile Include="Assets\Project\Code\Core\Items\ItemDropChance.cs" />
+    <Compile Include="Assets\Project\Code\Core\Items\ItemKeys.cs" />
+    <Compile Include="Assets\Project\Code\Core\Items\ItemPriceData.cs" />
+    <Compile Include="Assets\Project\Code\Core\Items\ItemSlot.cs" />
+    <Compile Include="Assets\Project\Code\Core\Items\ItemSlotData.cs" />
+    <Compile Include="Assets\Project\Code\Core\Items\PlayerItem.cs" />
+    <Compile Include="Assets\Project\Code\Core\Items\UnitInventory.cs" />
+    <Compile Include="Assets\Project\Code\Core\Missions\MissionData.cs" />
+    <Compile Include="Assets\Project\Code\Core\Missions\MissionInfo.cs" />
+    <Compile Include="Assets\Project\Code\Core\Missions\MissionKey.cs" />
+    <Compile Include="Assets\Project\Code\Core\Missions\MissionMapData.cs" />
+    <Compile Include="Assets\Project\Code\Core\Missions\PlanetData.cs" />
+    <Compile Include="Assets\Project\Code\Core\Missions\PlanetKey.cs" />
+    <Compile Include="Assets\Project\Code\Core\Network\NetworkManager.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\PlayerCity.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\PlayerData.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\PlayerHeroSkills.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\PlayerHeroes.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\PlayerInventory.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\PlayerResources.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\PlayerStatistics.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\PlayerStoryProgress.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\PlayerVIP.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\Utils\PlayerBuildingConstructor.cs" />
+    <Compile Include="Assets\Project\Code\Core\Player\Utils\PlayerFuelRefresher.cs" />
+    <Compile Include="Assets\Project\Code\Core\Skills\BaseUnit.cs" />
+    <Compile Include="Assets\Project\Code\Core\Skills\BaseUnitSkill.cs" />
+    <Compile Include="Assets\Project\Code\Core\Skills\HeroUniqueSkillsData.cs" />
+    <Compile Include="Assets\Project\Code\Core\Skills\Instances\SkillClipDischarge.cs" />
+    <Compile Include="Assets\Project\Code\Core\Skills\Instances\SkillExplosiveCharges.cs" />
+    <Compile Include="Assets\Project\Code\Core\Skills\Instances\SkillStunGrenade.cs" />
+    <Compile Include="Assets\Project\Code\Core\Skills\SkillEnums.cs" />
+    <Compile Include="Assets\Project\Code\Core\Skills\SkillParameters.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\AttackInfo.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\HitInfo.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitActiveSkills.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsCore\BaseHero.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsCore\BaseSoldier.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsCore\Set\UnitPlace.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsCore\Set\UnitPosition.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsCore\Set\UnitRange.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsCore\Set\UnitSlot.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsCore\UnitKeys.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsCore\UnitRarity.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsData\BaseHeroData.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsData\BaseSoldierData.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsData\BaseUnitData.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsUpgrades\SoldierUpgrade.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsUpgrades\SoldierUpgradeLevel.cs" />
+    <Compile Include="Assets\Project\Code\Core\Units\UnitsUpgrades\SoldierUpgradesInfo.cs" />
+    <Compile Include="Assets\Project\Code\Events\CityEvents.cs" />
+    <Compile Include="Assets\Project\Code\Events\EventsAggregator.cs" />
+    <Compile Include="Assets\Project\Code\Events\FightEvents.cs" />
+    <Compile Include="Assets\Project\Code\Events\ItemEvents.cs" />
+    <Compile Include="Assets\Project\Code\Events\NetworkEvents.cs" />
+    <Compile Include="Assets\Project\Code\Events\PlayerEvents.cs" />
+    <Compile Include="Assets\Project\Code\Events\SystemEvents.cs" />
+    <Compile Include="Assets\Project\Code\Events\UIEvents.cs" />
+    <Compile Include="Assets\Project\Code\Events\UnitEvents.cs" />
+    <Compile Include="Assets\Project\Code\UI\City\UICity.cs" />
+    <Compile Include="Assets\Project\Code\UI\City\UICityBuildingIcon.cs" />
+    <Compile Include="Assets\Project\Code\UI\City\UICityBuildingPopup.cs" />
+    <Compile Include="Assets\Project\Code\UI\Fight\UIFight.cs" />
+    <Compile Include="Assets\Project\Code\UI\Fight\UIHeroAggro.cs" />
+    <Compile Include="Assets\Project\Code\UI\Fight\UIHeroSkillButton.cs" />
+    <Compile Include="Assets\Project\Code\UI\Fight\UIHeroSkillButtonCooldown.cs" />
+    <Compile Include="Assets\Project\Code\UI\Fight\UIHeroSkills.cs" />
+    <Compile Include="Assets\Project\Code\UI\Fight\UnitUI.cs" />
+    <Compile Include="Assets\Project\Code\UI\LoadingScreen\LoadingScreen.cs" />
+    <Compile Include="Assets\Project\Code\UI\MainMenu\UIMainMenu.cs" />
+    <Compile Include="Assets\Project\Code\UI\MissionSelect\Back_.cs" />
+    <Compile Include="Assets\Project\Code\UI\MissionSelect\UIMissionIcon.cs" />
+    <Compile Include="Assets\Project\Code\UI\MissionSelect\UIPlanet.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\EUIWindowDisplayAction.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\GridLayoutRescaler.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowBattleDefeat.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowBattlePreview.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowBattleSetup.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowBattleVictory.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowBuildingUpgrade.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowCityBarracks.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowHeroInfo.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowHeroInfo_old.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowHeroesList.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowPlanetOverlay.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowPvPBattleSetup.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowPvPModeSelect.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowSets.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowShop.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowUnitConfirm.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowUnitSelect.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\Instances\UIWindowUpgrades.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIBarracksUnitInfo.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIBattlePreviewUnitInfo.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIBattleSetupUnitInfo.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIHeroCard.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIResourcesManager.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIUnitCard.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIUnitSelectInfo.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIUnitSlot.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIUnitSlotManager.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIUnitUpgrade.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIWindow.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIWindowKey.cs" />
+    <Compile Include="Assets\Project\Code\UI\Windows\UIWindowsManager.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Fight\FightCamera.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Fight\FightGraphics.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Fight\FightManager.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Fight\FightStatus.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\FightDialogs\UnitDialodEntity.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\FightDialogs\UnitDialogs.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\FightDialogs\UnitMonolog.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\FightDialogs\UnitsDialogScene.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\GameConfig\CityConfig.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\GameConfig\ItemsConfig.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\GameConfig\MissionsConfig.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\GameConfig\SkillsConfig.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\GameConfig\UnitsConfig.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Particles\GunfireParticlesController.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Particles\TracerParticleController.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\PracticScripts\rotation.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\ScenesSwitcher\ScenesSwitcher.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Skills\SkillClipDischargeView.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Skills\SkillExplosiveChargesView.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Skills\SkillStunGrenadeView.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Units\BaseUnitBehaviour.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Units\UnitAttack.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Units\UnitAttackState.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Units\UnitModels\HeroCapralModelView.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Units\UnitModels\SoldierScoutModelView.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Units\UnitModels\SoldierTrooperModelView.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Units\UnitModels\UnitAnimationState.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Units\UnitModels\UnitModelView.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Units\UnitMovementState.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Units\UnitSet.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Utils\GameTimer.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Utils\Utils.cs" />
+    <Compile Include="Assets\Project\Code\UnityScripts\Weapons\WeaponView.cs" />
+    <Compile Include="Assets\Project\Code\_Common\ArrayRO.cs" />
+    <Compile Include="Assets\Project\Code\_Common\ListRO.cs" />
+    <Compile Include="Assets\Project\Code\_Common\Singleton\MonoBehaviourResourceSingleton.cs" />
+    <Compile Include="Assets\Project\Code\_Common\Singleton\MonoBehaviourSingleton.cs" />
+    <Compile Include="Assets\Project\Code\_Common\UnityScripts\UI\CanvasResolutionAdapter.cs" />
+    <Compile Include="Assets\Project\Code\_Common\UnityScripts\UI\GradientText.cs" />
+    <Compile Include="Assets\Project\Code\_Common\UnityScripts\UI\MultiImageButton.cs" />
+    <Compile Include="Assets\Project\Graphics\Units\Models\_TestingStuff\FightTest\UnitsSelectGUI.cs" />
+    <Compile Include="Assets\Project\Graphics\Units\Models\_TestingStuff\test.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AndroidImmersiveMode\Instructions\Instructions.txt" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\Additive.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\AlphaBlended.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\Billboard.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\Burnout.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\Debris.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\Heat.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\Holographic.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\NebulaStaticBoard.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\Surface.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\Trail.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\WarpJump.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\WarpJumpDistortion.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\WarpJumpTwist.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\WarpTunnel.shader" />
+    <None Include="Assets\FORGE3D\Sci-Fi Effects\Shaders\WarpTunnelDistortion.shader" />
+    <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\Project\SHaders\Mobile_Diffise2Sided.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

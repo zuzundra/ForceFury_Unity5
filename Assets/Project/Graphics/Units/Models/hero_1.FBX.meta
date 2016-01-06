@@ -1,0 +1,736 @@
+fileFormatVersion: 2
+guid: 358e7e5c8c6eebb4dbf6d28e6124a3ad
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Base HumanHead
+    100002: Base HumanLCalf
+    100004: Base HumanLCollarbone
+    100006: Base HumanLFoot
+    100008: Base HumanLForearm
+    100010: Base HumanLPalm
+    100012: Base HumanLThigh
+    100014: Base HumanLUpperarm
+    100016: Base HumanNeck
+    100018: Base HumanPelvis
+    100020: Base HumanRCalf
+    100022: Base HumanRCollarbone
+    100024: Base HumanRFoot
+    100026: Base HumanRForearm
+    100028: Base HumanRibcage
+    100030: Base HumanRPalm
+    100032: Base HumanRThigh
+    100034: Base HumanRUpperarm
+    100036: Base HumanSpine
+    100038: BodyTopology
+    100040: //RootNode
+    100042: hero_1_head
+    400000: Base HumanHead
+    400002: Base HumanLCalf
+    400004: Base HumanLCollarbone
+    400006: Base HumanLFoot
+    400008: Base HumanLForearm
+    400010: Base HumanLPalm
+    400012: Base HumanLThigh
+    400014: Base HumanLUpperarm
+    400016: Base HumanNeck
+    400018: Base HumanPelvis
+    400020: Base HumanRCalf
+    400022: Base HumanRCollarbone
+    400024: Base HumanRFoot
+    400026: Base HumanRForearm
+    400028: Base HumanRibcage
+    400030: Base HumanRPalm
+    400032: Base HumanRThigh
+    400034: Base HumanRUpperarm
+    400036: Base HumanSpine
+    400038: BodyTopology
+    400040: //RootNode
+    400042: hero_1_head
+    4300000: BodyTopology
+    4300002: hero_1_head
+    7400000: Run_Rifle
+    7400002: Run_Gun
+    7400004: Strike_Gun
+    7400006: Strike_Rifle
+    7400008: GetDamage_1
+    7400010: GetDamage_2
+    7400012: Death_FallForward
+    7400014: Death_FallBack
+    9500000: //RootNode
+    13700000: BodyTopology
+    13700002: hero_1_head
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+      HumanRUpperarm/Base HumanRForearm/Base HumanRPalm
+    - Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+      HumanLUpperarm/Base HumanLForearm/Base HumanLPalm
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_Gun
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base HumanPelvis
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf/Base HumanLFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf/Base HumanRFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm/Base HumanLPalm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck/Base
+          HumanHead
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm/Base HumanRPalm
+        weight: 1
+      - path: BodyTopology
+        weight: 1
+      - path: hero_1_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run_Rifle
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base HumanPelvis
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf/Base HumanLFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf/Base HumanRFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm/Base HumanLPalm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck/Base
+          HumanHead
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm/Base HumanRPalm
+        weight: 1
+      - path: BodyTopology
+        weight: 1
+      - path: hero_1_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strike_Gun
+      takeName: Take 001
+      firstFrame: 42
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base HumanPelvis
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf/Base HumanLFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf/Base HumanRFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm/Base HumanLPalm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck/Base
+          HumanHead
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm/Base HumanRPalm
+        weight: 1
+      - path: BodyTopology
+        weight: 1
+      - path: hero_1_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strike_Rifle
+      takeName: Take 001
+      firstFrame: 54
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base HumanPelvis
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf/Base HumanLFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf/Base HumanRFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm/Base HumanLPalm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck/Base
+          HumanHead
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm/Base HumanRPalm
+        weight: 1
+      - path: BodyTopology
+        weight: 1
+      - path: hero_1_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GetDamage_1
+      takeName: Take 001
+      firstFrame: 78
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base HumanPelvis
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf/Base HumanLFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf/Base HumanRFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm/Base HumanLPalm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck/Base
+          HumanHead
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm/Base HumanRPalm
+        weight: 1
+      - path: BodyTopology
+        weight: 1
+      - path: hero_1_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GetDamage_2
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base HumanPelvis
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf/Base HumanLFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf/Base HumanRFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm/Base HumanLPalm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck/Base
+          HumanHead
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm/Base HumanRPalm
+        weight: 1
+      - path: BodyTopology
+        weight: 1
+      - path: hero_1_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_FallForward
+      takeName: Take 001
+      firstFrame: 86
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base HumanPelvis
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf/Base HumanLFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf/Base HumanRFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm/Base HumanLPalm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck/Base
+          HumanHead
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm/Base HumanRPalm
+        weight: 1
+      - path: BodyTopology
+        weight: 1
+      - path: hero_1_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_FallBack
+      takeName: Take 001
+      firstFrame: 67
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base HumanPelvis
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanLThigh/Base HumanLCalf/Base HumanLFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf
+        weight: 1
+      - path: Base HumanPelvis/Base HumanRThigh/Base HumanRCalf/Base HumanRFoot
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanLCollarbone/Base
+          HumanLUpperarm/Base HumanLForearm/Base HumanLPalm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanNeck/Base
+          HumanHead
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm
+        weight: 1
+      - path: Base HumanPelvis/Base HumanSpine/Base HumanRibcage/Base HumanRCollarbone/Base
+          HumanRUpperarm/Base HumanRForearm/Base HumanRPalm
+        weight: 1
+      - path: BodyTopology
+        weight: 1
+      - path: hero_1_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

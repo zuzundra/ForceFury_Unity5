@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Project\Code\Core\GameConstants.cs">
+    <Files>
+      <File FileName="Assets\Project\Code\UI\Windows\UIBattlePreviewUnitInfo.cs" Line="21" Column="42" />
+      <File FileName="Assets\Project\Code\UI\Windows\UIHeroCard.cs" Line="35" Column="72" />
+      <File FileName="Assets\Project\Code\UI\MissionSelect\UIMissionIcon.cs" Line="1" Column="1" />
+      <File FileName="Assets\Project\Code\UI\Windows\UIResourcesManager.cs" Line="33" Column="4" />
+      <File FileName="Assets\Project\Code\Core\GameConstants.cs" Line="72" Column="38" />
+      <File FileName="Assets\Project\Code\Core\Units\UnitsCore\UnitKeys.cs" Line="11" Column="10" />
+      <File FileName="Assets\Project\Code\UI\Windows\UIBattleSetupUnitInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets\Project\Code\UI\Windows\Instances\UIWindowBattlePreview.cs" Line="108" Column="43" />
+      <File FileName="Assets\Project\Code\Core\Units\UnitsData\BaseHeroData.cs" Line="37" Column="21" />
+      <File FileName="Assets\Project\Code\UI\Windows\Instances\UIWindowBattleSetup.cs" Line="129" Column="56" />
+      <File FileName="Assets\Project\Code\UnityScripts\GameConfig\UnitsConfig.cs" Line="3" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

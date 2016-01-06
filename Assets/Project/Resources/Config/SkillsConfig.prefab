@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &173046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 473046}
+  - 114: {fileID: 11473046}
+  m_Layer: 0
+  m_Name: SkillsConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &473046
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11473046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cc3f015f3ae0274181871e0556c5a47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _heroesUniqueSkills:
+  - _heroKey: 1
+    _skill:
+      _key: 1
+      _aggroCrystalsCost: 5
+      _targetSelectionRequired: 0
+      _canCastOnSelf: 0
+      _skillTarget: 0
+      _castTime: 0
+      _cooldownTime: 2
+      _resetAttackTimer: 0
+      _duration: 3
+      _radius: 0
+      _nativeDamage: 0
+      _modHealthAmount: 0
+      _modArmorAmount: 0
+      _modDamageAmount: 0
+      _modDamageRangeAmount: 0
+      _modDamageSpeedAmount: 0
+      _modCritChanceAmount: 0
+      _modCritDamageMultiplierAmount: 0
+      _modHealthPercents: 0
+      _modArmorPercents: 0
+      _modDamagePercents: 2
+      _modDamageRangePercents: 0
+      _modDamageSpeedPercents: 0
+      _modCritChancePercents: 0
+      _modCritDamageMultiplierPercents: 0
+      _iconPath: hero1_skill0
+  _skillsData:
+  - _key: 2
+    _aggroCrystalsCost: 5
+    _targetSelectionRequired: 0
+    _canCastOnSelf: 0
+    _skillTarget: 0
+    _castTime: .75
+    _cooldownTime: 5
+    _resetAttackTimer: 0
+    _duration: 6
+    _radius: 3
+    _nativeDamage: 0
+    _modHealthAmount: 0
+    _modArmorAmount: 0
+    _modDamageAmount: 0
+    _modDamageRangeAmount: 0
+    _modDamageSpeedAmount: 0
+    _modCritChanceAmount: 0
+    _modCritDamageMultiplierAmount: 0
+    _modHealthPercents: 0
+    _modArmorPercents: 0
+    _modDamagePercents: 1.5
+    _modDamageRangePercents: 0
+    _modDamageSpeedPercents: 0
+    _modCritChancePercents: 0
+    _modCritDamageMultiplierPercents: 0
+    _iconPath: hero1_skill1
+  - _key: 3
+    _aggroCrystalsCost: 5
+    _targetSelectionRequired: 0
+    _canCastOnSelf: 0
+    _skillTarget: 0
+    _castTime: 0
+    _cooldownTime: 10
+    _resetAttackTimer: 0
+    _duration: 3
+    _radius: 3
+    _nativeDamage: 0
+    _modHealthAmount: 0
+    _modArmorAmount: 0
+    _modDamageAmount: 0
+    _modDamageRangeAmount: 0
+    _modDamageSpeedAmount: 0
+    _modCritChanceAmount: 0
+    _modCritDamageMultiplierAmount: 0
+    _modHealthPercents: 0
+    _modArmorPercents: 0
+    _modDamagePercents: 0
+    _modDamageRangePercents: 0
+    _modDamageSpeedPercents: 0
+    _modCritChancePercents: 0
+    _modCritDamageMultiplierPercents: 0
+    _iconPath: hero1_skill2
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 173046}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

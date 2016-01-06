@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: 79f4acfe222457f4e8bcbf29e5c04865
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: npc_2_body
+    100002: npc_2_body001
+    100004: //RootNode
+    100006: npc_djawa
+    100008: npc_djawaEyeL
+    100010: npc_djawaEyeR
+    100012: npc_djawaHead
+    100014: npc_djawaLCalf
+    100016: npc_djawaLCollarbone
+    100018: npc_djawaLFoot
+    100020: npc_djawaLForearm
+    100022: npc_djawaLPalm
+    100024: npc_djawaLPlatform
+    100026: npc_djawaLThigh
+    100028: npc_djawaLUpperarm
+    100030: npc_djawaMouth
+    100032: npc_djawaNeck
+    100034: npc_djawaPantsBackL
+    100036: npc_djawaPantsBackR
+    100038: npc_djawaPantsL
+    100040: npc_djawaPantsR
+    100042: npc_djawaPelvis
+    100044: npc_djawaRCalf
+    100046: npc_djawaRCollarbone
+    100048: npc_djawaRFoot
+    100050: npc_djawaRForearm
+    100052: npc_djawaRibcage
+    100054: npc_djawaRPalm
+    100056: npc_djawaRPlatform
+    100058: npc_djawaRThigh
+    100060: npc_djawaRUpperarm
+    100062: npc_djawaShoulderL
+    100064: npc_djawaShoulderR
+    100066: npc_djawaSpine
+    400000: npc_2_body
+    400002: npc_2_body001
+    400004: //RootNode
+    400006: npc_djawa
+    400008: npc_djawaEyeL
+    400010: npc_djawaEyeR
+    400012: npc_djawaHead
+    400014: npc_djawaLCalf
+    400016: npc_djawaLCollarbone
+    400018: npc_djawaLFoot
+    400020: npc_djawaLForearm
+    400022: npc_djawaLPalm
+    400024: npc_djawaLPlatform
+    400026: npc_djawaLThigh
+    400028: npc_djawaLUpperarm
+    400030: npc_djawaMouth
+    400032: npc_djawaNeck
+    400034: npc_djawaPantsBackL
+    400036: npc_djawaPantsBackR
+    400038: npc_djawaPantsL
+    400040: npc_djawaPantsR
+    400042: npc_djawaPelvis
+    400044: npc_djawaRCalf
+    400046: npc_djawaRCollarbone
+    400048: npc_djawaRFoot
+    400050: npc_djawaRForearm
+    400052: npc_djawaRibcage
+    400054: npc_djawaRPalm
+    400056: npc_djawaRPlatform
+    400058: npc_djawaRThigh
+    400060: npc_djawaRUpperarm
+    400062: npc_djawaShoulderL
+    400064: npc_djawaShoulderR
+    400066: npc_djawaSpine
+    4300000: npc_2_body
+    4300002: npc_2_body001
+    7400000: Run_Gun
+    7400002: Strike_Gun
+    7400004: Waiting
+    7400006: GetDamage_1
+    7400008: Death_FallBack
+    7400010: Stun
+    9500000: //RootNode
+    13700000: npc_2_body
+    13700002: npc_2_body001
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm/npc_djawaLPalm
+    - npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm/npc_djawaRPalm
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_Gun
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_2_body
+        weight: 1
+      - path: npc_djawa
+        weight: 1
+      - path: npc_djawaPelvis
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf/npc_djawaLFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsBackL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf/npc_djawaRFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsBackR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm/npc_djawaLPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaShoulderL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm/npc_djawaRPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaShoulderR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaMouth
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeR
+        weight: 1
+      - path: npc_djawaLPlatform
+        weight: 1
+      - path: npc_djawaRPlatform
+        weight: 1
+      - path: npc_2_body001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strike_Gun
+      takeName: Take 001
+      firstFrame: 23
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_2_body
+        weight: 1
+      - path: npc_djawa
+        weight: 1
+      - path: npc_djawaPelvis
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf/npc_djawaLFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsBackL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf/npc_djawaRFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsBackR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm/npc_djawaLPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaShoulderL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm/npc_djawaRPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaShoulderR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaMouth
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeR
+        weight: 1
+      - path: npc_djawaLPlatform
+        weight: 1
+      - path: npc_djawaRPlatform
+        weight: 1
+      - path: npc_2_body001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Waiting
+      takeName: Take 001
+      firstFrame: 44
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_2_body
+        weight: 1
+      - path: npc_djawa
+        weight: 1
+      - path: npc_djawaPelvis
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf/npc_djawaLFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsBackL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf/npc_djawaRFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsBackR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm/npc_djawaLPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaShoulderL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm/npc_djawaRPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaShoulderR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaMouth
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeR
+        weight: 1
+      - path: npc_djawaLPlatform
+        weight: 1
+      - path: npc_djawaRPlatform
+        weight: 1
+      - path: npc_2_body001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GetDamage_1
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_2_body
+        weight: 1
+      - path: npc_djawa
+        weight: 1
+      - path: npc_djawaPelvis
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf/npc_djawaLFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsBackL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf/npc_djawaRFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsBackR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm/npc_djawaLPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaShoulderL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm/npc_djawaRPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaShoulderR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaMouth
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeR
+        weight: 1
+      - path: npc_djawaLPlatform
+        weight: 1
+      - path: npc_djawaRPlatform
+        weight: 1
+      - path: npc_2_body001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_FallBack
+      takeName: Take 001
+      firstFrame: 68
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_2_body
+        weight: 1
+      - path: npc_djawa
+        weight: 1
+      - path: npc_djawaPelvis
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf/npc_djawaLFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsBackL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf/npc_djawaRFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsBackR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm/npc_djawaLPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaShoulderL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm/npc_djawaRPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaShoulderR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaMouth
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeR
+        weight: 1
+      - path: npc_djawaLPlatform
+        weight: 1
+      - path: npc_djawaRPlatform
+        weight: 1
+      - path: npc_2_body001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stun
+      takeName: Take 001
+      firstFrame: 79
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_2_body
+        weight: 1
+      - path: npc_djawa
+        weight: 1
+      - path: npc_djawaPelvis
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaLCalf/npc_djawaLFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaLThigh/npc_djawaPantsBackL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaRCalf/npc_djawaRFoot
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaRThigh/npc_djawaPantsBackR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaLUpperarm/npc_djawaLForearm/npc_djawaLPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaLCollarbone/npc_djawaShoulderL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaRUpperarm/npc_djawaRForearm/npc_djawaRPalm
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaRCollarbone/npc_djawaShoulderR
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaMouth
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeL
+        weight: 1
+      - path: npc_djawaPelvis/npc_djawaSpine/npc_djawaRibcage/npc_djawaNeck/npc_djawaHead/npc_djawaEyeR
+        weight: 1
+      - path: npc_djawaLPlatform
+        weight: 1
+      - path: npc_djawaRPlatform
+        weight: 1
+      - path: npc_2_body001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,573 @@
+fileFormatVersion: 2
+guid: 4d4633be3beffbb48a578f8d94c48fac
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: npc_trooper
+    100004: npc_trooper_body
+    100006: npc_trooper_head
+    100008: npc_trooperHead
+    100010: npc_trooperHeadLEye
+    100012: npc_trooperHeadMouth
+    100014: npc_trooperHeadREye
+    100016: npc_trooperLCalf
+    100018: npc_trooperLCollarbone
+    100020: npc_trooperLFoot
+    100022: npc_trooperLForearm
+    100024: npc_trooperLIKTarget
+    100026: npc_trooperLPalm
+    100028: npc_trooperLPlatform
+    100030: npc_trooperLShoulder
+    100032: npc_trooperLThigh
+    100034: npc_trooperLUpperarm
+    100036: npc_trooperNeck
+    100038: npc_trooperPelvis
+    100040: npc_trooperRCalf
+    100042: npc_trooperRCollarbone
+    100044: npc_trooperRFoot
+    100046: npc_trooperRForearm
+    100048: npc_trooperRibcage
+    100050: npc_trooperRPalm
+    100052: npc_trooperRPlatform
+    100054: npc_trooperRShoulder
+    100056: npc_trooperRThigh
+    100058: npc_trooperRUpperarm
+    100060: npc_trooperSpine
+    400000: //RootNode
+    400002: npc_trooper
+    400004: npc_trooper_body
+    400006: npc_trooper_head
+    400008: npc_trooperHead
+    400010: npc_trooperHeadLEye
+    400012: npc_trooperHeadMouth
+    400014: npc_trooperHeadREye
+    400016: npc_trooperLCalf
+    400018: npc_trooperLCollarbone
+    400020: npc_trooperLFoot
+    400022: npc_trooperLForearm
+    400024: npc_trooperLIKTarget
+    400026: npc_trooperLPalm
+    400028: npc_trooperLPlatform
+    400030: npc_trooperLShoulder
+    400032: npc_trooperLThigh
+    400034: npc_trooperLUpperarm
+    400036: npc_trooperNeck
+    400038: npc_trooperPelvis
+    400040: npc_trooperRCalf
+    400042: npc_trooperRCollarbone
+    400044: npc_trooperRFoot
+    400046: npc_trooperRForearm
+    400048: npc_trooperRibcage
+    400050: npc_trooperRPalm
+    400052: npc_trooperRPlatform
+    400054: npc_trooperRShoulder
+    400056: npc_trooperRThigh
+    400058: npc_trooperRUpperarm
+    400060: npc_trooperSpine
+    4300000: npc_trooper_body
+    4300002: npc_trooper_head
+    7400000: Run_Rifle
+    7400002: Strike_Rifle
+    7400004: Waiting
+    7400006: GetDamage_1
+    7400008: Death_FallBack
+    9500000: //RootNode
+    13700000: npc_trooper_body
+    13700002: npc_trooper_head
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm/npc_trooperLPalm
+    - npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm/npc_trooperRPalm
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_Rifle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_trooper_body
+        weight: 1
+      - path: npc_trooper
+        weight: 1
+      - path: npc_trooperPelvis
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh/npc_trooperLCalf
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh/npc_trooperLCalf/npc_trooperLFoot
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh/npc_trooperRCalf
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh/npc_trooperRCalf/npc_trooperRFoot
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm/npc_trooperLPalm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLShoulder
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm/npc_trooperRPalm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRShoulder
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadMouth
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadLEye
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadREye
+        weight: 1
+      - path: npc_trooperLPlatform
+        weight: 1
+      - path: npc_trooperRPlatform
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_trooper_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strike_Rifle
+      takeName: Take 001
+      firstFrame: 23
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_trooper_body
+        weight: 1
+      - path: npc_trooper
+        weight: 1
+      - path: npc_trooperPelvis
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh/npc_trooperLCalf
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh/npc_trooperLCalf/npc_trooperLFoot
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh/npc_trooperRCalf
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh/npc_trooperRCalf/npc_trooperRFoot
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm/npc_trooperLPalm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLShoulder
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm/npc_trooperRPalm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRShoulder
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadMouth
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadLEye
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadREye
+        weight: 1
+      - path: npc_trooperLPlatform
+        weight: 1
+      - path: npc_trooperRPlatform
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_trooper_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Waiting
+      takeName: Take 001
+      firstFrame: 44
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_trooper_body
+        weight: 1
+      - path: npc_trooper
+        weight: 1
+      - path: npc_trooperPelvis
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh/npc_trooperLCalf
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh/npc_trooperLCalf/npc_trooperLFoot
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh/npc_trooperRCalf
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh/npc_trooperRCalf/npc_trooperRFoot
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm/npc_trooperLPalm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLShoulder
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm/npc_trooperRPalm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRShoulder
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadMouth
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadLEye
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadREye
+        weight: 1
+      - path: npc_trooperLPlatform
+        weight: 1
+      - path: npc_trooperRPlatform
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_trooper_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GetDamage_1
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_trooper_body
+        weight: 1
+      - path: npc_trooper
+        weight: 1
+      - path: npc_trooperPelvis
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh/npc_trooperLCalf
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh/npc_trooperLCalf/npc_trooperLFoot
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh/npc_trooperRCalf
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh/npc_trooperRCalf/npc_trooperRFoot
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm/npc_trooperLPalm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLShoulder
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm/npc_trooperRPalm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRShoulder
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadMouth
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadLEye
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadREye
+        weight: 1
+      - path: npc_trooperLPlatform
+        weight: 1
+      - path: npc_trooperRPlatform
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_trooper_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_FallBack
+      takeName: Take 001
+      firstFrame: 68
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npc_trooper_body
+        weight: 1
+      - path: npc_trooper
+        weight: 1
+      - path: npc_trooperPelvis
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh/npc_trooperLCalf
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperLThigh/npc_trooperLCalf/npc_trooperLFoot
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh/npc_trooperRCalf
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperRThigh/npc_trooperRCalf/npc_trooperRFoot
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLUpperarm/npc_trooperLForearm/npc_trooperLPalm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperLCollarbone/npc_trooperLShoulder
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRUpperarm/npc_trooperRForearm/npc_trooperRPalm
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperRCollarbone/npc_trooperRShoulder
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadMouth
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadLEye
+        weight: 1
+      - path: npc_trooperPelvis/npc_trooperSpine/npc_trooperRibcage/npc_trooperNeck/npc_trooperHead/npc_trooperHeadREye
+        weight: 1
+      - path: npc_trooperLPlatform
+        weight: 1
+      - path: npc_trooperRPlatform
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_trooper_head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

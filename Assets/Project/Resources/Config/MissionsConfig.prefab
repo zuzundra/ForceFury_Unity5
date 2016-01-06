@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &151062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 451062}
+  - 114: {fileID: 11451062}
+  m_Layer: 0
+  m_Name: MissionsConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &451062
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11451062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44ca75fea2ceaa244af8a430db9775db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unitsXPositionStartOffset: 1
+  _planets:
+  - _key: 1
+    _creditsIncome: 0
+    _missions:
+    - _key: 1
+      _fuelWinCost: 6
+      _fuelLoseCost: 3
+      _creditsWinCost: 0
+      _creditsLoseCost: 0
+      _mineralsWinCost: 0
+      _mineralsLoseCost: 0
+      _rewardExperienceWin: 10
+      _rewardExperienceLose: 4
+      _rewardFuel: 0
+      _rewardCredits: 0
+      _rewardMinerals: 0
+      _rewardItems:
+      - _itemKey: 2000001
+        _dropChance: 100
+      _attemptsDaily: 5
+      _mineIncome: 0
+      _maps:
+      - _units: 45420f0045420f0044420f0044420f0044420f00
+        _mapBackgroundPath: background_battle
+    _sceneName: Planet1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 151062}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,1089 @@
+fileFormatVersion: 2
+guid: 6b2efec99dc7281458f1b6d5fde5d642
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: hero_capral_body
+    100004: hero_capral_head
+    100006: Hero_capralHead
+    100008: Hero_capralHeadLEye
+    100010: Hero_capralHeadMouth
+    100012: Hero_capralHeadREye
+    100014: Hero_capralLBack
+    100016: Hero_capralLCalf
+    100018: Hero_capralLCollarbone
+    100020: Hero_capralLFoot
+    100022: Hero_capralLForearm
+    100024: Hero_capralLIKTarget
+    100026: Hero_capralLPalm
+    100028: Hero_capralLShoulder
+    100030: Hero_capralLThigh
+    100032: Hero_capralLUpperarm
+    100034: Hero_capralLUpperBack
+    100036: Hero_capralNeck
+    100038: Hero_capralPelvis
+    100040: Hero_capralRBack
+    100042: Hero_capralRCalf
+    100044: Hero_capralRCollarbone
+    100046: Hero_capralRFoot
+    100048: Hero_capralRForearm
+    100050: Hero_capralRibcage
+    100052: Hero_capralRIKTarget
+    100054: Hero_capralRIKTarget 1
+    100056: Hero_capralRIKTarget 2
+    100058: Hero_capralRPalm
+    100060: Hero_capralRThigh
+    100062: Hero_capralRUpperarm
+    100064: Hero_capralRUpperBack
+    100066: Hero_capralSpine
+    100068: Hero_capraRShoulder
+    100070: npc_djawaLIKTarget
+    100072: npc_djawaRIKTarget
+    100074: npc_trooperLIKTarget
+    100076: npc_trooperRIKTarget
+    400000: //RootNode
+    400002: hero_capral_body
+    400004: hero_capral_head
+    400006: Hero_capralHead
+    400008: Hero_capralHeadLEye
+    400010: Hero_capralHeadMouth
+    400012: Hero_capralHeadREye
+    400014: Hero_capralLBack
+    400016: Hero_capralLCalf
+    400018: Hero_capralLCollarbone
+    400020: Hero_capralLFoot
+    400022: Hero_capralLForearm
+    400024: Hero_capralLIKTarget
+    400026: Hero_capralLPalm
+    400028: Hero_capralLShoulder
+    400030: Hero_capralLThigh
+    400032: Hero_capralLUpperarm
+    400034: Hero_capralLUpperBack
+    400036: Hero_capralNeck
+    400038: Hero_capralPelvis
+    400040: Hero_capralRBack
+    400042: Hero_capralRCalf
+    400044: Hero_capralRCollarbone
+    400046: Hero_capralRFoot
+    400048: Hero_capralRForearm
+    400050: Hero_capralRibcage
+    400052: Hero_capralRIKTarget
+    400054: Hero_capralRIKTarget 1
+    400056: Hero_capralRIKTarget 2
+    400058: Hero_capralRPalm
+    400060: Hero_capralRThigh
+    400062: Hero_capralRUpperarm
+    400064: Hero_capralRUpperBack
+    400066: Hero_capralSpine
+    400068: Hero_capraRShoulder
+    400070: npc_djawaLIKTarget
+    400072: npc_djawaRIKTarget
+    400074: npc_trooperLIKTarget
+    400076: npc_trooperRIKTarget
+    4300000: hero_capral_body
+    4300002: hero_capral_head
+    7400000: Run_Gun
+    7400002: Strike_Gun
+    7400004: Waiting
+    7400006: GetDamage_1
+    7400008: Skill_ExplosiveCharges
+    7400010: Skill_ClipDischarge
+    7400012: Skill_StunGrenade
+    7400014: Death_FallForward
+    7400016: Talking
+    9500000: //RootNode
+    13700000: hero_capral_body
+    13700002: hero_capral_head
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm/Hero_capralLPalm
+    - Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm/Hero_capralRPalm
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_Gun
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hero_capral_body
+        weight: 1
+      - path: hero_capral_head
+        weight: 1
+      - path: Hero_capralLIKTarget
+        weight: 1
+      - path: Hero_capralPelvis
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf/Hero_capralLFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf/Hero_capralRFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm/Hero_capralLPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack/Hero_capralLBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadLEye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadMouth
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadREye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm/Hero_capralRPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capraRShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack/Hero_capralRBack
+        weight: 1
+      - path: Hero_capralRIKTarget
+        weight: 1
+      - path: Hero_capralRIKTarget 1
+        weight: 1
+      - path: Hero_capralRIKTarget 2
+        weight: 1
+      - path: npc_djawaLIKTarget
+        weight: 1
+      - path: npc_djawaRIKTarget
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_trooperRIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strike_Gun
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero_capralPelvis
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf/Hero_capralLFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf/Hero_capralRFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm/Hero_capralLPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm/Hero_capralRPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capraRShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadMouth
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadLEye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadREye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack/Hero_capralRBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack/Hero_capralLBack
+        weight: 1
+      - path: hero_capral_body
+        weight: 1
+      - path: Hero_capralRIKTarget
+        weight: 1
+      - path: Hero_capralRIKTarget 1
+        weight: 1
+      - path: Hero_capralRIKTarget 2
+        weight: 1
+      - path: Hero_capralLIKTarget
+        weight: 1
+      - path: hero_capral_head
+        weight: 1
+      - path: npc_trooperRIKTarget
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_djawaLIKTarget
+        weight: 1
+      - path: npc_djawaRIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Waiting
+      takeName: Take 001
+      firstFrame: 47
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero_capralPelvis
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf/Hero_capralLFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf/Hero_capralRFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm/Hero_capralLPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm/Hero_capralRPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capraRShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadMouth
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadLEye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadREye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack/Hero_capralRBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack/Hero_capralLBack
+        weight: 1
+      - path: hero_capral_body
+        weight: 1
+      - path: Hero_capralRIKTarget
+        weight: 1
+      - path: Hero_capralRIKTarget 1
+        weight: 1
+      - path: Hero_capralRIKTarget 2
+        weight: 1
+      - path: Hero_capralLIKTarget
+        weight: 1
+      - path: hero_capral_head
+        weight: 1
+      - path: npc_trooperRIKTarget
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_djawaLIKTarget
+        weight: 1
+      - path: npc_djawaRIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GetDamage_1
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero_capralPelvis
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf/Hero_capralLFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf/Hero_capralRFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm/Hero_capralLPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm/Hero_capralRPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capraRShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadMouth
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadLEye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadREye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack/Hero_capralRBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack/Hero_capralLBack
+        weight: 1
+      - path: hero_capral_body
+        weight: 1
+      - path: Hero_capralRIKTarget
+        weight: 1
+      - path: Hero_capralRIKTarget 1
+        weight: 1
+      - path: Hero_capralRIKTarget 2
+        weight: 1
+      - path: Hero_capralLIKTarget
+        weight: 1
+      - path: hero_capral_head
+        weight: 1
+      - path: npc_trooperRIKTarget
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_djawaLIKTarget
+        weight: 1
+      - path: npc_djawaRIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death_FallForward
+      takeName: Take 001
+      firstFrame: 76
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero_capralPelvis
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf/Hero_capralLFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf/Hero_capralRFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm/Hero_capralLPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm/Hero_capralRPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capraRShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadMouth
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadLEye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadREye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack/Hero_capralRBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack/Hero_capralLBack
+        weight: 1
+      - path: hero_capral_body
+        weight: 1
+      - path: Hero_capralRIKTarget
+        weight: 1
+      - path: Hero_capralRIKTarget 1
+        weight: 1
+      - path: Hero_capralRIKTarget 2
+        weight: 1
+      - path: Hero_capralLIKTarget
+        weight: 1
+      - path: hero_capral_head
+        weight: 1
+      - path: npc_trooperRIKTarget
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_djawaLIKTarget
+        weight: 1
+      - path: npc_djawaRIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skill_ClipDischarge
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero_capralPelvis
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf/Hero_capralLFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf/Hero_capralRFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm/Hero_capralLPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm/Hero_capralRPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capraRShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadMouth
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadLEye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadREye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack/Hero_capralRBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack/Hero_capralLBack
+        weight: 1
+      - path: hero_capral_body
+        weight: 1
+      - path: Hero_capralRIKTarget
+        weight: 1
+      - path: Hero_capralRIKTarget 1
+        weight: 1
+      - path: Hero_capralRIKTarget 2
+        weight: 1
+      - path: Hero_capralLIKTarget
+        weight: 1
+      - path: hero_capral_head
+        weight: 1
+      - path: npc_trooperRIKTarget
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_djawaLIKTarget
+        weight: 1
+      - path: npc_djawaRIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skill_StunGrenade
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero_capralPelvis
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf/Hero_capralLFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf/Hero_capralRFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm/Hero_capralLPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm/Hero_capralRPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capraRShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadMouth
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadLEye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadREye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack/Hero_capralRBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack/Hero_capralLBack
+        weight: 1
+      - path: hero_capral_body
+        weight: 1
+      - path: Hero_capralRIKTarget
+        weight: 1
+      - path: Hero_capralRIKTarget 1
+        weight: 1
+      - path: Hero_capralRIKTarget 2
+        weight: 1
+      - path: Hero_capralLIKTarget
+        weight: 1
+      - path: hero_capral_head
+        weight: 1
+      - path: npc_trooperRIKTarget
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_djawaLIKTarget
+        weight: 1
+      - path: npc_djawaRIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Skill_ExplosiveCharges
+      takeName: Take 001
+      firstFrame: 148
+      lastFrame: 164
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero_capralPelvis
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf/Hero_capralLFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf/Hero_capralRFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm/Hero_capralLPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm/Hero_capralRPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capraRShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadMouth
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadLEye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadREye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack/Hero_capralRBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack/Hero_capralLBack
+        weight: 1
+      - path: hero_capral_body
+        weight: 1
+      - path: Hero_capralRIKTarget
+        weight: 1
+      - path: Hero_capralRIKTarget 1
+        weight: 1
+      - path: Hero_capralRIKTarget 2
+        weight: 1
+      - path: Hero_capralLIKTarget
+        weight: 1
+      - path: hero_capral_head
+        weight: 1
+      - path: npc_trooperRIKTarget
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_djawaLIKTarget
+        weight: 1
+      - path: npc_djawaRIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Talking
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hero_capralPelvis
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralLThigh/Hero_capralLCalf/Hero_capralLFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralRThigh/Hero_capralRCalf/Hero_capralRFoot
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLUpperarm/Hero_capralLForearm/Hero_capralLPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLCollarbone/Hero_capralLShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capralRUpperarm/Hero_capralRForearm/Hero_capralRPalm
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRCollarbone/Hero_capraRShoulder
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadMouth
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadLEye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralNeck/Hero_capralHead/Hero_capralHeadREye
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralRUpperBack/Hero_capralRBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack
+        weight: 1
+      - path: Hero_capralPelvis/Hero_capralSpine/Hero_capralRibcage/Hero_capralLUpperBack/Hero_capralLBack
+        weight: 1
+      - path: hero_capral_body
+        weight: 1
+      - path: Hero_capralRIKTarget
+        weight: 1
+      - path: Hero_capralRIKTarget 1
+        weight: 1
+      - path: Hero_capralRIKTarget 2
+        weight: 1
+      - path: Hero_capralLIKTarget
+        weight: 1
+      - path: hero_capral_head
+        weight: 1
+      - path: npc_trooperRIKTarget
+        weight: 1
+      - path: npc_trooperLIKTarget
+        weight: 1
+      - path: npc_djawaLIKTarget
+        weight: 1
+      - path: npc_djawaRIKTarget
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

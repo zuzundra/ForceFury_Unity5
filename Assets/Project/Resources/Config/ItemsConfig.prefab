@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &181012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481012}
+  - 114: {fileID: 11481012}
+  m_Layer: 0
+  m_Name: ItemsConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &481012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11481012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab55e91a1476ef47b183d91ca4c7533, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+  - _key: 1000001
+    _type: 1000001
+    _possibleSlots: 0100000002000000
+    _modHealth: 0
+    _modArmor: 0
+    _modDamage: 1
+    _modDamageRange: 4.30000019
+    _modDamageSpeed: .5
+    _modCritChance: 0
+    _modCritDamageMultiplier: 0
+    _levelRequirement: 1
+    _prefabName: Weapons/W_Gun
+    _iconName: weapon_1
+    _prices:
+      _buyCreditsCost: 0
+      _sellCreditsCost: 0
+      _buyMineralsCost: 0
+      _sellMineralsCost: 0
+  - _key: 1000002
+    _type: 1000002
+    _possibleSlots: 0100000002000000
+    _modHealth: 0
+    _modArmor: 0
+    _modDamage: 2
+    _modDamageRange: 3
+    _modDamageSpeed: .5
+    _modCritChance: 50
+    _modCritDamageMultiplier: 1.5
+    _levelRequirement: 1
+    _prefabName: Weapons/W_Rifle
+    _iconName: weapon_2
+    _prices:
+      _buyCreditsCost: 0
+      _sellCreditsCost: 0
+      _buyMineralsCost: 0
+      _sellMineralsCost: 0
+  - _key: 1
+    _type: 2
+    _possibleSlots: 0b000000
+    _modHealth: 50
+    _modArmor: 5
+    _modDamage: 0
+    _modDamageRange: 0
+    _modDamageSpeed: 1
+    _modCritChance: 0
+    _modCritDamageMultiplier: 0
+    _levelRequirement: 1
+    _prefabName: 
+    _iconName: armor_1
+    _prices:
+      _buyCreditsCost: 0
+      _sellCreditsCost: 0
+      _buyMineralsCost: 0
+      _sellMineralsCost: 0
+  - _key: 2
+    _type: 2
+    _possibleSlots: 0b000000
+    _modHealth: 30
+    _modArmor: 4
+    _modDamage: 0
+    _modDamageRange: 0
+    _modDamageSpeed: 0
+    _modCritChance: 0
+    _modCritDamageMultiplier: 0
+    _levelRequirement: 1
+    _prefabName: Armor/A_VestSoldier
+    _iconName: armor_2
+    _prices:
+      _buyCreditsCost: 0
+      _sellCreditsCost: 0
+      _buyMineralsCost: 0
+      _sellMineralsCost: 0
+  - _key: 3
+    _type: 1
+    _possibleSlots: 0b000000
+    _modHealth: 15
+    _modArmor: 1
+    _modDamage: 0
+    _modDamageRange: 0
+    _modDamageSpeed: 0
+    _modCritChance: 0
+    _modCritDamageMultiplier: 0
+    _levelRequirement: 1
+    _prefabName: 
+    _iconName: 
+    _prices:
+      _buyCreditsCost: 0
+      _sellCreditsCost: 0
+      _buyMineralsCost: 0
+      _sellMineralsCost: 0
+  - _key: 2000001
+    _type: 0
+    _possibleSlots: 
+    _modHealth: 0
+    _modArmor: 0
+    _modDamage: 0
+    _modDamageRange: 0
+    _modDamageSpeed: 0
+    _modCritChance: 0
+    _modCritDamageMultiplier: 0
+    _levelRequirement: 0
+    _prefabName: 
+    _iconName: exp_1
+    _prices:
+      _buyCreditsCost: 0
+      _sellCreditsCost: 0
+      _buyMineralsCost: 0
+      _sellMineralsCost: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 181012}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
