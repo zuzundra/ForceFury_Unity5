@@ -308,16 +308,15 @@ public class UIWindowBattleSetup : UIWindow {
 		Global.Instance.CurrentMission.MissionKey = _missionKey;
 
         _slotManager.SaveHiredSoldiers();
-
-		LoadingScreen.Instance.Show();
+        LoadingScreen.Instance.Show();
 		LoadingScreen.Instance.SetProgress(0f);
 
-		FightManager.Setup(EFightMode.Campaign, 
+        FightManager.Setup(EFightMode.Campaign, 
             MissionsConfig.Instance.GetPlanet(Global.Instance.CurrentMission.PlanetKey).GetMission(Global.Instance.CurrentMission.MissionKey));
-		Application.LoadLevel(GameConstants.Scenes.FIGHT);
-	}
+        Application.LoadLevel(GameConstants.Scenes.FIGHT);
+    }
 
-	private void OnBtnBackClick() {
+    private void OnBtnBackClick() {
 		Hide();
 	}
 

@@ -151,26 +151,27 @@ public class FightManager : MonoBehaviour {
 	}
 
 	public IEnumerator LoadMap() {
-		LoadingScreen.Instance.SetProgress(0.1f);
-
+        LoadingScreen.Instance.SetProgress(0.1f);
 		_graphics.Unload(false);
 		_logger.Clear();
 
-		MissionMapData mapData = _missionData.GetMap(_currentMapIndex);
+        MissionMapData mapData = _missionData.GetMap(_currentMapIndex);
 
 		_fightPreparationStep = EFightPreparationStep.MapGraphicsLoad;
 		_graphics.Load(mapData);
 		yield return null;
-		_fightPreparationStep = EFightPreparationStep.MapGraphicsLoaded;
 
-		StartCoroutine(InitializeUnits(mapData));
-		while (_fightPreparationStep != EFightPreparationStep.UnitsInitialized) {
-			yield return null;
-		}
-		_fightPreparationStep = EFightPreparationStep.End;
+        _fightPreparationStep = EFightPreparationStep.MapGraphicsLoaded;
 
-		StartCoroutine(PlayFightDialog());
-		_ui.HideFader();
+        StartCoroutine(InitializeUnits(mapData));
+        while (_fightPreparationStep != EFightPreparationStep.UnitsInitialized)
+        {
+            yield return null;
+        }
+        _fightPreparationStep = EFightPreparationStep.End;
+
+        StartCoroutine(PlayFightDialog());
+        _ui.HideFader();
 	}
 
 	private IEnumerator InitializeUnits(MissionMapData mapData) {
@@ -186,19 +187,18 @@ public class FightManager : MonoBehaviour {
 		}
 		_enemiesCount = _graphics.EnemyUnits.Length;
 
-		StartCoroutine(InitializeUnitsData(mapData));
+        StartCoroutine(InitializeUnitsData(mapData));
 		while (_fightPreparationStep != EFightPreparationStep.UnitsGraphicsInitialized) {
-			yield return null;
+            yield return null;
 		}
         UnitSet.Instance.SetUnitPositions();
+        _fightPreparationStep = EFightPreparationStep.UnitsInitialized;
+    }
 
-		_fightPreparationStep = EFightPreparationStep.UnitsInitialized;
-	}
-
-	private IEnumerator InitializeUnitsData(MissionMapData mapData) {
+    private IEnumerator InitializeUnitsData(MissionMapData mapData) {
 		_fightPreparationStep = EFightPreparationStep.InitializeUnitsGraphics;
 
-		float unitInitializationStep = (0.9f - 0.25f) / (_alliesCount + _enemiesCount);
+        float unitInitializationStep = (0.9f - 0.25f) / (_alliesCount + _enemiesCount);
 		float currentLoadPercentage = 0.25f;
 
 		//get player hero skills
@@ -215,11 +215,12 @@ public class FightManager : MonoBehaviour {
 			}
 		}
 
-		_graphics.AllyUnits[_graphics.AllyUnits.Length - 1].Setup(Global.Instance.Player.Heroes.Current, playerHeroSkills,
+        _graphics.AllyUnits[_graphics.AllyUnits.Length - 1].Setup(Global.Instance.Player.Heroes.Current, playerHeroSkills,
             GameConstants.Tags.UNIT_ALLY, _graphics.UnitUIResource, Global.Instance.CurrentMission.SelectedSoldiers.Length);
 		for(int i = 0; i < Global.Instance.CurrentMission.SelectedSoldiers.Length; i++) {
 			if (!Global.Instance.CurrentMission.SelectedSoldiers[i].IsDead) {
-				_graphics.AllyUnits[i].Setup(Global.Instance.CurrentMission.SelectedSoldiers[i], null, GameConstants.Tags.UNIT_ALLY, _graphics.UnitUIResource, i);	//TODO: setup units skills
+				_graphics.AllyUnits[i].Setup(Global.Instance.CurrentMission.SelectedSoldiers[i], null, 
+                    GameConstants.Tags.UNIT_ALLY, _graphics.UnitUIResource, i);	//TODO: setup units skills
 
 				currentLoadPercentage += unitInitializationStep;
 				LoadingScreen.Instance.SetProgress(currentLoadPercentage);
@@ -227,23 +228,24 @@ public class FightManager : MonoBehaviour {
 				yield return null;
 			}
 		}
-
-		BaseUnitData bud = null;
-		for (int i = 0; i < mapData.Units.Length; i++) {
-			bud = UnitsConfig.Instance.GetUnitData(mapData.Units[i]);
-			if (bud is BaseHeroData) {
-				_graphics.EnemyUnits[i].Setup(new BaseHero(bud as BaseHeroData, 0), null, GameConstants.Tags.UNIT_ENEMY, _graphics.UnitUIResource, i);	//TODO: setup enemy hero inventory, hero skills
-			} else {
-				_graphics.EnemyUnits[i].Setup(new BaseSoldier(bud as BaseSoldierData, 1), null, GameConstants.Tags.UNIT_ENEMY, _graphics.UnitUIResource, i);	//TODO: setup enemy soldier upgrades, unit skills
-			}
-
-			currentLoadPercentage += unitInitializationStep;
-			LoadingScreen.Instance.SetProgress(currentLoadPercentage);
-
-			yield return null;
-		}
-
-		_fightPreparationStep = EFightPreparationStep.UnitsGraphicsInitialized;
+        BaseUnitData bud = null;
+        for (int i = 0; i < mapData.Units.Length; i++)
+        {
+            bud = UnitsConfig.Instance.GetUnitData(mapData.Units[i]);
+            if (bud is BaseHeroData)
+            {
+                _graphics.EnemyUnits[i].Setup(new BaseHero(bud as BaseHeroData, 0), null,
+                   GameConstants.Tags.UNIT_ENEMY, _graphics.UnitUIResource, i);    //TODO: setup enemy hero inventory, hero skills
+            }
+            else {
+                _graphics.EnemyUnits[i].Setup(new BaseSoldier(bud as BaseSoldierData, 1), null,
+                   GameConstants.Tags.UNIT_ENEMY, _graphics.UnitUIResource, i);    //TODO: setup enemy soldier upgrades, unit skills
+            }
+            currentLoadPercentage += unitInitializationStep;
+            LoadingScreen.Instance.SetProgress(currentLoadPercentage);
+            yield return null;
+        }
+        _fightPreparationStep = EFightPreparationStep.UnitsGraphicsInitialized;
 	}
 
     //private void InitializeUnitsPositions(ArrayRO<BaseUnitBehaviour> units, Transform[] spawnPoints, Transform unitsRoot) {
@@ -325,12 +327,12 @@ public class FightManager : MonoBehaviour {
     private IEnumerator PlayFightDialog() {
 		LoadingScreen.Instance.SetProgress(1f);
 
-		while (_rtfUnitsAmount < _alliesCount + _enemiesCount) {
+        while (_rtfUnitsAmount < _alliesCount + _enemiesCount) {
 			yield return null;
 		}
+        LoadingScreen.Instance.Hide();
 
-		LoadingScreen.Instance.Hide();
-		UnitDialogs.Instance.Play(_missionData.Key, _currentMapIndex, OnFightDialogPlayed);
+        UnitDialogs.Instance.Play(_missionData.Key, _currentMapIndex, OnFightDialogPlayed);
 	}
 
 	private void OnFightDialogPlayed() {
@@ -562,6 +564,6 @@ public class FightManager : MonoBehaviour {
 
 	private void OnUnitReadyToFight(BaseUnitBehaviour bub) {
 		_rtfUnitsAmount++;
-	}
-	#endregion
+    }
+    #endregion
 }

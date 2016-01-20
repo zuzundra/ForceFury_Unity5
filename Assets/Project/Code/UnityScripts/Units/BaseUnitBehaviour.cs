@@ -85,23 +85,23 @@ public class BaseUnitBehaviour : MonoBehaviour, IComparable {
 	private bool _isStarted = false;
 	private Action _onStart = null;
 	public IEnumerator Start() {
-		_model.SimulateAttack();
+        _model.SimulateAttack();
 		
-		if (_model.Animator.GetCurrentAnimatorClipInfo(0).Length == 0) {
+		//if (_model.Animator.GetCurrentAnimatorClipInfo(0).Length == 0) {
 			yield return null;
-		}
-		_model.SetupWeapon();
+        //}
+
+        _model.SetupWeapon();
 		
 		_isStarted = true;
 		if (_onStart != null) {
 			_onStart();
 			_onStart = null;
 		}
-		
-		EventsAggregator.Units.Broadcast<BaseUnitBehaviour>(EUnitEvent.ReadyToFight, this);
-	}
-	
-	public void OnDestroy() {
+        EventsAggregator.Units.Broadcast<BaseUnitBehaviour>(EUnitEvent.ReadyToFight, this);
+    }
+
+    public void OnDestroy() {
 		EventsAggregator.Units.RemoveListener<BaseUnit, HitInfo>(EUnitEvent.HitReceived, OnHitReceived);
 		EventsAggregator.Units.RemoveListener<BaseUnit>(EUnitEvent.DeathCame, OnUnitDeath);
 		EventsAggregator.Fight.RemoveListener(EFightEvent.Pause, OnFightPause);
@@ -122,39 +122,43 @@ public class BaseUnitBehaviour : MonoBehaviour, IComparable {
 	}
 	
 	public void Setup(BaseUnit unitData, Dictionary<ESkillKey, BaseUnitSkill> skills, string tag, GameObject uiResource, int unitNumber) {
-		_unitData = unitData;
-		gameObject.tag = tag;
-		_isAlly = gameObject.CompareTag(GameConstants.Tags.UNIT_ALLY);
+        _unitData = unitData;
+        gameObject.tag = tag;
+        _isAlly = gameObject.CompareTag(GameConstants.Tags.UNIT_ALLY);
 
         _attackTime = FightManager.SceneInstance.AttackInterval;// 1f / unitData.AttackSpeed;
-		_cachedWaitForSeconds = new WaitForSeconds(_attackTime - _model.ShootPositionTimeOffset);
-		
-		_skills = skills != null ? skills : new Dictionary<ESkillKey, BaseUnitSkill>();
-		
-		if (_isAlly && UnitsConfig.Instance.IsHero(_unitData.Data.Key)) {
-			EventsAggregator.Units.AddListener<ESkillKey>(EUnitEvent.SkillUsage, UseSkill);
-		}
-		
-		if (_ui == null) {
-			_ui = (GameObject.Instantiate(uiResource) as GameObject).GetComponent<UnitUI>();
-			_ui.transform.SetParent(transform, false);
-			_ui.transform.localPosition = _healthBarPosition;
-			_ui.transform.localRotation = Quaternion.Euler(GameConstants.CAMERA_ROTATION);
-		} else {
-			_ui.Reset();
-		}
-		
-		if (unitData.DamageTaken > 0) {
-			_ui.UpdateHealthBar(Mathf.Max(unitData.HealthPoints - unitData.DamageTaken, 0) / (unitData.HealthPoints * 1f));
-		}
-		
-		if (_isStarted) {
-			EventsAggregator.Units.Broadcast<BaseUnitBehaviour>(EUnitEvent.ReadyToFight, this);
-		}		
-		//_unitPathfinder.UnitNumber = unitNumber;
-	}
-	
-	public void Stun(float duration) {
+        _cachedWaitForSeconds = new WaitForSeconds(_attackTime - _model.ShootPositionTimeOffset);
+
+        _skills = skills != null ? skills : new Dictionary<ESkillKey, BaseUnitSkill>();
+
+        if (_isAlly && UnitsConfig.Instance.IsHero(_unitData.Data.Key))
+        {
+            EventsAggregator.Units.AddListener<ESkillKey>(EUnitEvent.SkillUsage, UseSkill);
+        }
+
+        if (_ui == null)
+        {
+            _ui = (GameObject.Instantiate(uiResource) as GameObject).GetComponent<UnitUI>();
+            _ui.transform.SetParent(transform, false);
+            _ui.transform.localPosition = _healthBarPosition;
+            _ui.transform.localRotation = Quaternion.Euler(GameConstants.CAMERA_ROTATION);
+        }
+        else {
+            _ui.Reset();
+        }
+
+        if (unitData.DamageTaken > 0)
+        {
+            _ui.UpdateHealthBar(Mathf.Max(unitData.HealthPoints - unitData.DamageTaken, 0) / (unitData.HealthPoints * 1f));
+        }
+
+        if (_isStarted)
+        {
+            EventsAggregator.Units.Broadcast<BaseUnitBehaviour>(EUnitEvent.ReadyToFight, this);
+        }
+    }
+
+    public void Stun(float duration) {
 		_model.PlayStunAnimation();
 		
 		for (int i = 0; i < UnitData.ActiveSkills.ActiveSkills.Count; i++) {
@@ -172,7 +176,7 @@ public class BaseUnitBehaviour : MonoBehaviour, IComparable {
 	}
 	
 	public void Run() {
-		if (!_isStarted)         
+        if (!_isStarted)         
         {
 			_onStart += Run;
 			return;

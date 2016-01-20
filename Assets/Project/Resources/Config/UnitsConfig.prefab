@@ -89,7 +89,7 @@ MonoBehaviour:
         _range: 0
         _position: 2
       _unit: 1000003
-  - _key: 1000004
+  - _key: 0
     _baseHealthPoints: 0
     _baseDamage: 15
     _baseRange: 2
@@ -173,7 +173,7 @@ MonoBehaviour:
   - _key: 1000005
     _baseHealthPoints: 0
     _baseDamage: 3
-    _baseRange: 2
+    _baseRange: 0
     _baseEquipment:
     - _slotName: 1
       _itemKey: 1000002
@@ -240,4 +240,3 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 196294}
   m_IsPrefabParent: 1
-  m_IsExploded: 1

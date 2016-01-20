@@ -101,7 +101,7 @@ public class FightGraphics {
 			unitsList[i] = bub;
 
 			bud = UnitsConfig.Instance.GetUnitData(mapData.Units[i]);
-			LoadItemsResources(_enemyItemsGraphicsResources, mapData.Units[i], bub.ModelView, bud.GetBaseItemInSlot(EUnitEqupmentSlot.Weapon_RHand), bud.GetBaseItemInSlot(EUnitEqupmentSlot.Weapon_LHand), bud.GetBaseItemInSlot(EUnitEqupmentSlot.Armor));
+			//LoadItemsResources(_enemyItemsGraphicsResources, mapData.Units[i], bub.ModelView, bud.GetBaseItemInSlot(EUnitEqupmentSlot.Weapon_RHand), bud.GetBaseItemInSlot(EUnitEqupmentSlot.Weapon_LHand), bud.GetBaseItemInSlot(EUnitEqupmentSlot.Armor));
 		}
 
 		//save
