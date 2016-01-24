@@ -70,7 +70,7 @@ public class UnitSet
         for (int i = 0; i < units.Length; i++)
         {
             BaseUnitBehaviour unit = units[i];
-            if (unit != null)
+            if (unit != null && unit.UnitData != null)
             {
                 EUnitPosition position = unit.Place.Position;
                 if (UnitsConfig.Instance.IsHero(unit.UnitData.Data.Key))
