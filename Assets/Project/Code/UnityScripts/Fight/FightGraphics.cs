@@ -120,7 +120,8 @@ public class FightGraphics {
 
 	private void LoadBackgroundResources(MissionMapData mapData) {
 		if (!mapData.MapBackgroundPath.Equals(string.Empty)) {
-			_backgroundResource = UIResourcesManager.Instance.GetResource<Sprite>(string.Format("{0}/{1}", GameConstants.Paths.UI_MAP_BACKGROUND_RESOURCES, mapData.MapBackgroundPath));
+			_backgroundResource = UIResourcesManager.Instance.GetResource<Sprite>(string.Format("{0}/{1}", 
+                GameConstants.Paths.UI_MAP_BACKGROUND_RESOURCES, mapData.MapBackgroundPath));
 		}
 	}
 

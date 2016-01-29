@@ -20,6 +20,13 @@ public class UIFight : MonoBehaviour {
 		get { return _imgMapBackground; }
 	}
 
+    [SerializeField]
+    private Transform _mapBackground;
+    public Transform MapBackground
+    {
+        get { return _mapBackground; }
+    }
+
 	[SerializeField]
 	private Button _btnPause;
 	[SerializeField]
