@@ -90,7 +90,9 @@ public class UnitSet
                 }
                 else
                 {
-                    if (unit.UnitData.Data.BaseRange == EUnitRange.Ranged)
+                    EUnitRange range = unit.UnitData.TemplatePlace.Range != EUnitRange.None
+                        ? unit.UnitData.TemplatePlace.Range : unit.UnitData.Data.BaseRange;
+                    if (range == EUnitRange.Ranged)
                     {
                         if (remoteUnits.Count < 3)
                         {
@@ -103,7 +105,7 @@ public class UnitSet
                             nearUnits.Add(unit);
                         }
                     }
-                    else if (unit.UnitData.Data.BaseRange == EUnitRange.Melee)
+                    else if (range == EUnitRange.Melee)
                     {
                         if (nearUnits.Count < 3)
                         {
@@ -129,8 +131,9 @@ public class UnitSet
         float height = GameConstants.DEFAULT_RESOLUTION_HEIGHT * canvas.transform.localScale.y;
         float xMin = -width / 2;
         float xMax = width / 2;
-        float yMin = -height;
-        float yMax = 0;
+        float y = canvas.transform.position.y + 1;
+        float zMin = -height / 2;
+        float zMax = height / 2;
         float delta = (xMax - xMin) / 12;
 
         //Debug.Log("W" + GameConstants.DEFAULT_RESOLUTION_WIDTH);
@@ -144,16 +147,16 @@ public class UnitSet
         //Debug.Log("d" + delta);
 
         List<BaseUnitBehaviour> heroes = rangeUnits[FirstZoneIndex];
-        SetZonePositions(heroes, isAlly ? xMin + delta : xMax - delta, yMin, yMax);
+        SetZonePositions(heroes, isAlly ? xMin + delta : xMax - delta, y, zMin, zMax);
 
         List<BaseUnitBehaviour> remoteUnits = rangeUnits[SecondZoneIndex];
-        SetZonePositions(remoteUnits, isAlly ? xMin + delta * 3 : xMax - delta * 3, yMin, yMax);
+        SetZonePositions(remoteUnits, isAlly ? xMin + delta * 3 : xMax - delta * 3, y, zMin, zMax);
 
         List<BaseUnitBehaviour> nearUnits = rangeUnits[ThirdZoneIndex];
-        SetZonePositions(nearUnits, isAlly ? xMin + delta * 5 : xMax - delta * 5, yMin, yMax);
+        SetZonePositions(nearUnits, isAlly ? xMin + delta * 5 : xMax - delta * 5, y, zMin, zMax);
     }
 
-    void SetZonePositions(List<BaseUnitBehaviour> units, float x, float minZ, float maxZ)
+    void SetZonePositions(List<BaseUnitBehaviour> units, float x, float y, float minZ, float maxZ)
     {
         if (units.Count == 0)
             return;
@@ -178,9 +181,9 @@ public class UnitSet
         {
             switch (unit.Place.Position)
             {
-                case EUnitPosition.Middle: unit.SetPosition(new Vector3(x, 0, (maxZ + minZ) / 2)); break;
-                case EUnitPosition.Top: unit.SetPosition(new Vector3(x, 0, maxZ - (maxZ - minZ) / 6)); break;
-                case EUnitPosition.Bottom: unit.SetPosition(new Vector3(x, 0, minZ + (maxZ - minZ) / 6)); break;                 
+                case EUnitPosition.Middle: unit.SetPosition(new Vector3(x, y, (maxZ + minZ) / 2)); break;
+                case EUnitPosition.Top: unit.SetPosition(new Vector3(x, y, maxZ - (maxZ - minZ) / 6)); break;
+                case EUnitPosition.Bottom: unit.SetPosition(new Vector3(x, y, minZ + (maxZ - minZ) / 6)); break;                 
             }
         }
     }

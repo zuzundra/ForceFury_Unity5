@@ -171,7 +171,7 @@ MonoBehaviour:
     _agroCost: 0
     _type: 0
   - _key: 1000005
-    _baseHealthPoints: 0
+    _baseHealthPoints: 4
     _baseDamage: 3
     _baseRange: 0
     _baseEquipment:

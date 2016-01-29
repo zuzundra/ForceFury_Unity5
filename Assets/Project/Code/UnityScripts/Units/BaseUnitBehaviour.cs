@@ -201,7 +201,7 @@ public class BaseUnitBehaviour : MonoBehaviour, IComparable {
             ? UnitData.TemplatePlace : new UnitPlace() { Range = range, Position = position };
     }
 
-	public void GoToMapEnd() {
+    public void GoToMapEnd() {
         _unitAttack.WalkIntoSunset();
 		//_unitPathfinder.WalkIntoSunset();
 	}
