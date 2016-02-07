@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Project/Scenes/Missions.unity
+- path: Assets/Project/Scenes/MainMenu.unity
   isLoaded: 1
   isActive: 1
